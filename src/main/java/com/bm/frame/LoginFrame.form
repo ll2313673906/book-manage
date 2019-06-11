@@ -33,14 +33,6 @@
           <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
-      <component id="18d44" class="javax.swing.JComboBox" binding="chooseComboBox">
-        <constraints>
-          <grid row="7" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="-1" height="30"/>
-          </grid>
-        </constraints>
-        <properties/>
-      </component>
       <component id="c4669" class="javax.swing.JPasswordField" binding="passwordField">
         <constraints>
           <grid row="5" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
@@ -95,6 +87,22 @@
         </constraints>
         <properties>
           <text value="图书管理系统"/>
+        </properties>
+      </component>
+      <component id="3bb60" class="javax.swing.JRadioButton" binding="学生RadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="学生"/>
+        </properties>
+      </component>
+      <component id="44617" class="javax.swing.JRadioButton" binding="管理员RadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="管理员"/>
         </properties>
       </component>
     </children>
