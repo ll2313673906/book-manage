@@ -3,18 +3,17 @@ package com.bm.frame;
 import com.bm.entity.Admin;
 import com.bm.entity.User;
 import com.bm.factory.ServiceFactory;
+import com.bm.ui.ImgPanel;
 import com.bm.utils.ResultEntity;
 
 import javax.swing.*;
-import java.awt.*;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
-import java.util.List;
+
 
 public class LoginFrame extends JFrame {
-    private JPanel rootPanel;
+    private ImgPanel rootPanel;
     private JTextField accountField;
     private JPasswordField passwordField;
     private String roleName;
@@ -27,9 +26,13 @@ public class LoginFrame extends JFrame {
         setTitle("图书管理登录");
         setContentPane(rootPanel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(500, 600);
+        setSize(600, 700);
         setLocationRelativeTo(null);
         setVisible(true);
+        rootPanel.setFileName("1.jpg");
+        rootPanel.repaint();
+
+
 
         ButtonGroup group = new ButtonGroup();
         group.add(学生RadioButton);
